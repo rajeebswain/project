@@ -1,0 +1,17 @@
+{
+    "jenkins-runner.jobs": {
+        "project": {
+            "isDefault": true,
+            "runWith": "jenkins-master",
+            "name": "project"
+        }
+    },
+    "jenkins-runner.hostConfigs": {
+        "jenkins-master": {
+            "url": "http://54.70.62.123:8080/",
+            "user": "admin",
+            "password": "admin",
+            "useCrumbIssuer": true
+        }
+    }
+}
