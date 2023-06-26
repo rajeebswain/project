@@ -14,7 +14,7 @@ spec:
       replicas: 4
       containers:
       - name: flask-app-container
-        image: rajeebswain/project:53
+        image: rajeebswain/project:56
         resources:
           limits:
             memory: "128Mi"
